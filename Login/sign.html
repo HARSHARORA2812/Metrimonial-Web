@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign.css">
+    <title>Sign Up - MatchMila</title>
+</head>
+<body>
+    <div id="nav">
+        <img src="../img/PHOTO-2024-09-02-14-04-02-removebg-preview.png" alt="logo">
+         <div id="vut">
+          <a href="../Bichola.in/index.html"><h4>Home</h4></a>
+            <a href="../Matches/index.html"><h4>Matches</h4></a>
+          <a href="../About/About_Us.html"><h4>About Us</h4></a>
+            <a href="../Profile/index.html"><h4>My-Profile</h4></a>
+          <a href="./Register.html"><h4>Login/Register</h4></a>
+
+          </div>
+      </div> 
+     
+    <div class="container">
+        <video autoplay loop muted src="Roses falling.mp4"></video>
+        <div class="card">
+            <h2 class="heading">Create Your MatchMila Profile</h2>
+            <form method="post">
+                <div class="form-group">
+                    <label for="Username" class="label">Username</label>
+                    <input type="text" id="Username" name="Username" placeholder="Enter your Username" class="input" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="img" class="label">Image URl</label>
+                    <input type="text" id="image" name="img" placeholder="Enter your img Url" class="input" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="Fullame" class="label">Full Name</label>
+                    <input type="text" id="Fullname" name="Fullname" placeholder="Enter your full name" class="input" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="label">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" class="input" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="label">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Create a password" class="input" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="dob" class="label">Date of Birth</label>
+                    <input type="date" id="dob" name="dob" class="input" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="gender" class="label">Gender</label>
+                    <select id="gender" name="gender" class="input" required>
+                        <option value="">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="occupation" class="label">Occupation</label>
+                    <input type="text" id="occupation" name="occupation" placeholder="Enter your occupation" class="input" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="education" class="label">Education</label>
+                    <input type="text" id="education" name="education" placeholder="Highest education level" class="input" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="location" class="label">Location</label>
+                    <input type="text" id="location" name="location" placeholder="City, Country" class="input" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="height" class="label">Height</label>
+                    <input type="text" id="height" name="height" placeholder="Height in cm or feet" class="input" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="religion" class="label">Religion</label>
+                    <input type="text" id="religion" name="religion" placeholder="Your religion" class="input" required />
+                </div>
+
+                <button type="submit" class="button">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+<script src="sign.js"></script>
+</html>

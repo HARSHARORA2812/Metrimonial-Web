@@ -1,0 +1,97 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family:fantasy;
+    background-color: #bc7eb164; 
+    color: #333;
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: flex-start;
+    background: transparent;
+    position: fixed;
+    z-index:11;
+    margin-top: -180px;
+  }
+  #nav img{
+    height: 120px;
+  }
+  #nav h4{
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 15%;
+  }
+  #vut a{
+    text-decoration: none;
+    color: black;
+  }
+  #vut{
+    text-decoration: none;
+    display: flex;
+    margin-left: 680px;
+    gap: 40px;
+  }
+
+.container {
+    max-width: 1100px;
+    margin: 80px auto 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 200px;
+}
+
+h1 {
+    text-align: center;
+    color:#b15cc0;
+    margin-bottom: 30px;
+}
+
+#profile-info {
+    line-height: 1.6;
+}
+
+#profile-info p {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+#profile-info strong {
+    color: #b15cc0;
+    width: 120px;
+    display: inline-block;
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+#profile-info p {
+    animation: fadeIn 0.5s ease-out forwards;
+    opacity: 0;
+}
+
+#profile-info p:nth-child(1) { animation-delay: 0.1s; }
+#profile-info p:nth-child(2) { animation-delay: 0.2s; }
+#profile-info p:nth-child(3) { animation-delay: 0.3s; }
+#profile-info p:nth-child(4) { animation-delay: 0.1s; }
+#profile-info p:nth-child(5) { animation-delay: 0.2s; }
+#profile-info p:nth-child(6) { animation-delay: 0.3s; }
+#profile-info p:nth-child(7) { animation-delay: 0.1s; }
+#profile-info p:nth-child(8) { animation-delay: 0.2s; }
+#profile-info p:nth-child(9) { animation-delay: 0.3s; }
+#profile-info p:nth-child(10) { animation-delay: 0.1s; }
+#profile-info p:nth-child(11) { animation-delay: 0.2s; }
+#profile-info p:nth-child(12) { animation-delay: 0.3s; }
+

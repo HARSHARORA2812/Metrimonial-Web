@@ -1,0 +1,151 @@
+*{
+  margin: 0; 
+  padding: 0; 
+  box-sizing:border-box; 
+  font-family:fantasy;
+  color: black;
+}
+html,body{
+  height: 100%; 
+  width: 100%;
+  background-color:white;
+}
+video{
+  height: 100%;
+  width: 100%;
+  object-fit:cover;
+  position: fixed;
+  z-index: -0.5;
+}
+#main{
+  position: relative;
+}
+
+#nav{
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: flex-start;
+  position: fixed;
+  z-index:11;
+}
+#nav img{
+  height: 120px;
+}
+#nav h4{
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 15%;
+}
+#vut a{
+  text-decoration: none;
+  color: black;
+}
+#vut{
+  text-decoration: none;
+  margin-left: 100px;
+  display: flex;
+  margin-left: 680px;
+  gap: 40px;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:aliceblue;
+  text-align: center;
+  z-index: 10;
+  }
+
+
+  .card {
+    border: 2px solid goldenrod  ;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(175, 12, 12); 
+    width: 100%;
+    max-width: 450px;
+    z-index: 10;
+    background-color: white;
+    color: #c0a5c5;
+  }
+  
+
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #c51d1d; 
+    margin-bottom: 16px;
+  }
+  
+  .form-group {
+    margin-bottom: 16px;
+  }
+  
+  .label {
+  
+    font-size: 12px;
+    font-weight: 500; 
+  }
+  
+
+  .input {
+   
+    width: 100%;
+    padding: 8px 7px;
+    margin-top: 4px;
+    border-radius: 4px; 
+    border: 1px solid goldenrod; 
+    font-size: 13px;
+    color: rgb(218, 32, 32);
+  }
+
+  .input:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 0, 217, 0.214); 
+    border-color: #ff0000; 
+  }
+  
+
+  .button {
+    background-color: #ce0606;
+    color: #ffffff; 
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px; 
+    border: none;
+    cursor: pointer;
+    font-size: 8px; 
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+    flex :auto ;
+
+    margin-top: 10px;
+  }
+  .button2 {
+    background-color: #ce0606;
+    color: #ffffff; 
+    width: 50px;
+    padding: 8px;
+    border-radius: 6px; 
+    border: none;
+    cursor: pointer;
+    font-size: 8px; 
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+    flex :auto ;
+  }
+  
+  .button:hover {
+    background-color: #e1bf23;
+  }
+
+  .button2:hover {
+    background-color: #e1bf23;
+  }
